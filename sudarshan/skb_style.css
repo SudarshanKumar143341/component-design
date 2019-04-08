@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-
+body{background:grey;}
 /*Floating columns side by side*/
 .column {
   float: left;
@@ -21,6 +21,7 @@
 
 /* Style the counter cards */
 .card {
+  background:white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 4px;
   text-align: center;
