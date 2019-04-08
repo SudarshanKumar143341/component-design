@@ -30,7 +30,7 @@
 
 /*Styling title of card. */
 .card>p#card_title{
-    color: #888;
+    color: #222;
     font-size: 12px;
     text-align: right;
     text-transform: uppercase;
