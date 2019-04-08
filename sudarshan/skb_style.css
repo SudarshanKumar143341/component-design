@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+/*Floating columns side by side*/
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Removing extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clearing floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 4px;
+  text-align: center;
+  border-radius:10px 0 0 0;
+  border-top: 2px solid silver;
+}
+
+/*Styling title of card. */
+.card>p#card_title{
+    color: #777;
+    font-size: 10px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+/*Rounding the border of image.*/
+img#card_image{
+  border-radius:10px 0 0 0;
+  width:100%;
+}
+
+.card:hover {
+  box-shadow: 0 12px 20px 0 rgba(0,0,0,0.2);
+}
+/*styling texts of card. */
+.container{
+  padding: 2px;
+  text-align:left;
+}
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
