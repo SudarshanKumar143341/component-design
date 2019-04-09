@@ -31,7 +31,7 @@ body{background:lightgrey;}
 }
 
 /*Styling title of card. */
-.card>p#card_title{
+.card>p#card_title1#card_title2#card_title3{
     color: #222;
     font-size: 12px;
     text-align: right;
@@ -39,7 +39,7 @@ body{background:lightgrey;}
 }
 
 /*Rounding the border of image.*/
-img#card_image{
+img#card_image1#card_image2#card_image3{
   border-radius:10px 0 0 0;
   width:100%;
 }
