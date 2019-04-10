@@ -1,0 +1,112 @@
+
+*{
+  padding:0;
+  margin:0;
+  list-style: none;
+  text-decoration: none;
+
+}
+body{
+  background: #C1bbbb;
+
+}
+.card{
+  width:400px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  background: #f9bfda;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  box-shadow: 0px 0px 20px #000000b3;
+}
+.card-header{
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+.card-header img{
+  height: 80%;
+  width: 100%;
+}
+
+.card-header .name{
+  position: absolute;
+  top: 207px;
+  left: 40px;
+  font-size: 26px;
+  display: block;
+  font-weight: bold;
+  font-family: monospace;
+  color: green;
+}
+
+.container{
+  padding: 20px;
+  overflow: hidden;
+}
+.item{
+  margin: 6px 0;
+  font-family: monospace;
+}
+.head{
+  display: block;
+  font-size: 16px;
+  text-decoration: underline;
+}
+.info{
+  font-size: 12px
+}
+.dropbtn {
+  background-color: #9b59b6;
+  color: white;
+  padding: 6px;
+  font-size: 12px;
+  border: solid;
+  border-color: #9b59b6 ;
+
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  bottom: 20px;
+  z-index: 1;
+}
+
+.dropup-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropup-content a:hover {background-color: #ccc}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropup:hover .dropbtn {
+  background-color: #2980B9;
+}
+input[type=text] {
+  width: 60px;
+  margin: 0 0 0 300px;
+}
+.bottom{
+  border: solid;
+  border-style: inset;
+  height: 40px;
+  font-size: 11px;
+  text-align: center;
+  color: red;
+}
