@@ -23,7 +23,7 @@ section{
 }
 
 h1,h2,h3,h4,h5{
-  font-family: sans-serif;
+  font-family:times;
   color:#1d1d60;
   font-weight:bold;
 }
@@ -31,7 +31,7 @@ h1,h2,h3,h4,h5{
 .img{
   width:100%;
   margin-top: 22px;
-  margin-bottom:auto;
+  margin-bottom:22px;
   height:200px;
 
 }
@@ -39,14 +39,14 @@ h1,h2,h3,h4,h5{
 
 
 a:link{
-  color:#ec3535;
+  color:black;
 }
 a:visited,
 .link--visited{
-  color: #ff00bc;
+  color: black;
 }
 a:hover{
-  color:#12a65b;
+  font-family:monospace;
 }
 a:active{
   color: blue;
@@ -68,7 +68,7 @@ a:active{
 }
 
 .colour--dark{
-	background: #101046;
+	background: grey;
 }
 
 .colour--light {
@@ -76,7 +76,7 @@ a:active{
 }
 
 .colour--highlight {
-	background: #ff00bc;
+	background:  #8a8dcf;
 }
 
 
