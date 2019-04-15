@@ -15,6 +15,7 @@ main{
   padding: 20px 10px;
   border-left: 3px solid grey;
   border-right: 3px solid grey;
+
 }
 
 section{
@@ -29,7 +30,6 @@ h1,h2,h3,h4,h5{
   font-size: 25px;
 }
 
-.h1{
 
 }
 
@@ -43,18 +43,17 @@ h1,h2,h3,h4,h5{
 
 
 
-a:link{
-  color:black;
+
 }
 a:visited,
 .link--visited{
-  color: red;
+  color: black;
 }
 a:hover{
   font-family:monospace;
 }
 a:active{
-  color: blue;
+  color: grey;
 }
 
 .colour {
@@ -122,6 +121,7 @@ a:active{
   margin-top: 20px;
   margin-left:20px;
   padding-right:18px;
+  size:29px;
 }
 
 @media screen and (min-width:350px) {
